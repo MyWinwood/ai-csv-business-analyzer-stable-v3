@@ -1,0 +1,29 @@
+# Core Streamlit and data processing
+streamlit==1.36.0
+pandas==2.2.2
+plotly==5.17.0
+numpy==1.26.4
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Web scraping and business research dependencies
+openai==1.35.0
+tavily-python==0.3.3
+
+# Additional dependencies for data analysis
+openpyxl==3.1.2
+xlrd==2.0.1
+
+# Optional AI provider SDKs (commented out to reduce build size)
+# groq>=0.4.0
+# anthropic>=0.8.0
+
+# For enhanced data analysis (commented out to reduce build size)
+# scikit-learn>=1.0.0
+# seaborn>=0.11.0
+
+# Testing and development dependencies (uncomment for development)
+# pytest>=7.0.0
+# pytest-hypothesis>=6.0.0
+# mypy>=1.0.0
+# ruff>=0.1.0
