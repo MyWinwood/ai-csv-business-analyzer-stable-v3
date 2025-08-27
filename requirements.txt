@@ -1,3 +1,6 @@
+# Force use of pre-built wheels to avoid compilation issues
+--only-binary=pandas,numpy
+
 # Core Streamlit and data processing
 streamlit==1.36.0
 pandas==2.2.2
