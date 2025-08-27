@@ -50,34 +50,32 @@ ENV/
 env.bak/
 venv.bak/
 
-# Streamlit
-.streamlit/secrets.toml
-
-# Data files (optional - remove if you want to include sample data)
-*.csv
-*.xlsx
-*.xls
-*.json
-
-# OS
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# IDE
-.vscode/
+# IDEs
 .idea/
+.vscode/
 *.swp
 *.swo
 *~
 
-# Project specific
-clear_cache.py
-clear_cache_and_restart.bat
-clear_python_cache.py
-setup_chrome_debugging.py
-data_explorer.py
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Application specific
+research_status.db
+*.log
+*.tmp
+
+# CSV and Excel files (ignore uploads)
+*.csv
+*.xlsx
+*.xls
+
+# Email configuration (sensitive)
+email_config.py
+
+# Batch files (Windows specific)
+*.bat
